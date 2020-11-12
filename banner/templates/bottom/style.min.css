@@ -1,0 +1,1 @@
+.banners_row{display:flex;justify-content:space-between;margin-top:10px;margin-left:-20px}.banner_image{width:100%}.carousel-item{display:flex;flex-direction:column;margin:20px 0 0 20px;flex:1}@media screen and (max-width:630px){.banners_row{flex-wrap:wrap}.carousel-item{flex:unset;width:100%}}

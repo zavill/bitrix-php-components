@@ -1,0 +1,15 @@
+#swiperMainBanner .carousel-item {
+    margin: unset;
+}
+
+#swiperMainBanner #swiper-button-next-banner {
+    right: 10px !important;
+}
+
+#swiperMainBanner .swiper-slide {
+    width: 100% !important;
+}
+
+#swiperMainBanner .swiper-button-next, #swiperMainBanner .swiper-button-prev {
+    top: 50% !important;
+}

@@ -1,0 +1,78 @@
+#order_info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.order_info_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order_info_header {
+    color: #b7b7b7;
+}
+
+.order_info_item {
+    width: 500px;
+    text-align: left;
+}
+
+.order_final_line {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order_final_header {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.order_final_header::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 0a7 7 0 100 14A7 7 0 007 0zm3.85 4.85l-5 5a.5.5 0 01-.7 0l-2-2a.5.5 0 11.7-.7L5.5 8.79l4.65-4.64a.5.5 0 01.7.7z' fill='%2316C65C'/%3E%3C/svg%3E");
+}
+
+.order_final_item {
+    width: 500px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 630px) {
+    .order_info_line {
+        flex-direction: column;
+    }
+
+    .order_info_item {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #order_info {
+        width: 100%;
+    }
+
+    .order_final_line {
+        flex-direction: column;
+    }
+
+    .order_info_item {
+       margin-top: 10px;
+       width: 100%;
+    }
+
+}

@@ -1,0 +1,42 @@
+#change_profile_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_head {
+    color: #b7b7b7;
+    margin-top: 20px;
+}
+
+.mf-ok-text {
+    margin-top: 20px;
+    color: #16c65c;
+    font-weight: bold;
+}
+
+.login_input_first.personal_input {
+    margin-top: 10px;
+}
+
+
+.login_input_first.personal_text {
+    margin-top: 10px;
+    transition: none;
+    padding: 10px 20px;
+    height: unset;
+}
+
+#send_button {
+    max-width: 306px;
+    height: 43px;
+    box-sizing: border-box;
+    line-height: 43px;
+    padding: 0 20px;
+}
+
+.error_text {
+    color: #f73d34;
+    margin-top: 20px;
+    font-weight: bold;
+}
